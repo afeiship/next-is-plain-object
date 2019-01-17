@@ -2,6 +2,8 @@
   var global = global || this || window || Function('return this')();
   var nx = global.nx || require('next-js-core2');
 
+  // https://github.com/reduxjs/react-redux/blob/master/src/utils/isPlainObject.js
+
   nx.isPlainObject = function(inTarget) {
     var proto, baseProto;
     if (!inTarget || typeof inTarget !== 'object') return false;
