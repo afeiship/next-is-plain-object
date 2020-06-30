@@ -1,22 +1,34 @@
 # next-is-plain-object
-> A isPlainObject implement
+> A isPlainObject implement.
 
-## install:
+[![version][version-image]][version-url]
+[![license][license-image]][license-url]
+[![size][size-image]][size-url]
+[![download][download-image]][download-url]
+
+## installation
 ```bash
-npm install -S afeiship/next-is-plain-object --registry=https://registry.npm.taobao.org
+npm install -S @feizheng/next-is-plain-object
 ```
 
-## usage:
+## usage
 ```js
+import '@feizheng/next-is-plain-object';
+
 //DOCS here!
 ```
 
-## description:
-~~~
-Plain Object: 
-指的是通过字面量形式或者new Object()形式定义的对象。 
-https://github.com/reduxjs/redux/blob/master/src/utils/isPlainObject.js
-~~~
+## license
+Code released under [the MIT license](https://github.com/afeiship/next-is-plain-object/blob/master/LICENSE.txt).
 
-## thanks to
-- redux `isPlainObject`
+[version-image]: https://img.shields.io/npm/v/@feizheng/next-is-plain-object
+[version-url]: https://npmjs.org/package/@feizheng/next-is-plain-object
+
+[license-image]: https://img.shields.io/npm/l/@feizheng/next-is-plain-object
+[license-url]: https://github.com/afeiship/next-is-plain-object/blob/master/LICENSE.txt
+
+[size-image]: https://img.shields.io/bundlephobia/minzip/@feizheng/next-is-plain-object
+[size-url]: https://github.com/afeiship/next-is-plain-object/blob/master/dist/next-is-plain-object.min.js
+
+[download-image]: https://img.shields.io/npm/dm/@feizheng/next-is-plain-object
+[download-url]: https://www.npmjs.com/package/@feizheng/next-is-plain-object

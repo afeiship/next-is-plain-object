@@ -1,14 +1,22 @@
-(function() {
-  var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('next-js-core2');
+/*!
+ * name: @feizheng/next-is-plain-object
+ * description: A isPlainObject implement.
+ * homepage: https://github.com/afeiship/next-is-plain-object
+ * version: 1.0.0
+ * date: 2020-06-30T06:11:10.169Z
+ * license: MIT
+ */
 
+(function () {
+  var global = global || this || window || Function('return this')();
+  var nx = global.nx || require('@feizheng/next-js-core2');
   // https://github.com/reduxjs/react-redux/blob/master/src/utils/isPlainObject.js
 
-  nx.isPlainObject = function(inTarget) {
-    var proto, baseProto;
+  nx.isPlainObject = function (inTarget) {
     if (!inTarget || typeof inTarget !== 'object') return false;
-    proto = Object.getPrototypeOf(inTarget);
-    baseProto = proto;
+
+    var proto = Object.getPrototypeOf(inTarget);
+    var baseProto = proto;
 
     if (proto === null) return true;
     while (proto !== null) {
@@ -22,3 +30,5 @@
     module.exports = nx.isPlainObject;
   }
 })();
+
+//# sourceMappingURL=next-is-plain-object.js.map
