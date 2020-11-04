@@ -8,8 +8,10 @@
 
     var proto = Object.getPrototypeOf(inTarget);
     var baseProto = proto;
-
     if (proto === null) return true;
+    var ctor = inTarget.constructor;
+    if (typeof ctor !== 'function') return false;
+
     while (proto !== null) {
       proto = Object.getPrototypeOf(proto);
     }
