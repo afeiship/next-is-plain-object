@@ -5,28 +5,22 @@
   // https://github.com/reduxjs/react-redux/blob/master/src/utils/isPlainObject.js
   // https://github.com/jonschlinkert/is-plain-object
 
-  function isObject(val) {
-    return val != null && typeof val === 'object' && Array.isArray(val) === false;
-  }
-
-  function isObjectObject(o) {
-    return isObject(o) === true && Object.prototype.toString.call(o) === '[object Object]';
+  function isObject(o) {
+    return Object.prototype.toString.call(o) === '[object Object]';
   }
 
   nx.isPlainObject = function (inTarget) {
     var ctor, prot;
 
-    if (!inTarget || typeof inTarget !== 'object') return false;
-    if (Object.getPrototypeOf(inTarget) === null) return true;
-    if (isObjectObject(inTarget) === false) return false;
+    if (isObject(inTarget) === false) return false;
 
     // If has modified constructor
     ctor = inTarget.constructor;
-    if (typeof ctor !== 'function') return false;
+    if (ctor === undefined) return true;
 
     // If has modified prototype
     prot = ctor.prototype;
-    if (isObjectObject(prot) === false) return false;
+    if (isObject(prot) === false) return false;
 
     // If constructor does not have an Object-specific method
     if (prot.hasOwnProperty('isPrototypeOf') === false) {
