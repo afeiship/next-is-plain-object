@@ -15,7 +15,8 @@ npm install -S @feizheng/next-is-plain-object
 ```js
 import '@feizheng/next-is-plain-object';
 
-//DOCS here!
+const v1 = { name: 'fei' };
+nx.isPlainObject(v1);   //true
 ```
 
 ## license

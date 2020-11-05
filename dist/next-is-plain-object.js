@@ -2,8 +2,8 @@
  * name: @feizheng/next-is-plain-object
  * description: A isPlainObject implement.
  * homepage: https://github.com/afeiship/next-is-plain-object
- * version: 1.0.3
- * date: 2020-11-04T01:46:04.364Z
+ * version: 1.0.4
+ * date: 2020-11-05T23:54:23.793Z
  * license: MIT
  */
 

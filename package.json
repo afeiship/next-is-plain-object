@@ -1,6 +1,6 @@
 {
   "name": "@feizheng/next-is-plain-object",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A isPlainObject implement.",
   "homepage": "https://github.com/afeiship/next-is-plain-object",
   "author": {
@@ -40,5 +40,13 @@
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
-  }
+  },
+  "keywords": [
+    "next",
+    "is-plain-object",
+    "plain",
+    "object",
+    "is-object",
+    "is"
+  ]
 }
