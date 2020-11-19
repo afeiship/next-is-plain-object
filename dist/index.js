@@ -1,7 +1,15 @@
+/*!
+ * name: @jswork/next-is-plain-object
+ * description: A isPlainObject implement.
+ * homepage: https://github.com/afeiship/next-is-plain-object
+ * version: 1.0.0
+ * date: 2020-11-19 08:44:51
+ * license: MIT
+ */
+
 (function () {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('@feizheng/next-js-core2');
-
+  var nx = global.nx || require('@jswork/next');
   // https://github.com/reduxjs/react-redux/blob/master/src/utils/isPlainObject.js
   // https://github.com/jonschlinkert/is-plain-object
 
