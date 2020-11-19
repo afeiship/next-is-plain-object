@@ -37,5 +37,13 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
-  }
+  },
+  "keywords": [
+    "next",
+    "is-plain-object",
+    "plain",
+    "object",
+    "is-object",
+    "is"
+  ]
 }

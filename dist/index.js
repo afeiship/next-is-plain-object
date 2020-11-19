@@ -3,7 +3,7 @@
  * description: A isPlainObject implement.
  * homepage: https://github.com/afeiship/next-is-plain-object
  * version: 1.0.0
- * date: 2020-11-19 08:44:51
+ * date: 2020-11-19 08:45:42
  * license: MIT
  */
 
