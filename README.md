@@ -13,7 +13,7 @@ npm install -S @jswork/next-is-plain-object
 
 ## usage
 ```js
-import '@feizheng/next-is-plain-object';
+import '@jswork/next-is-plain-object';
 
 const v1 = { name: 'fei' };
 nx.isPlainObject(v1);   //true
