@@ -1,6 +1,6 @@
 {
   "name": "@jswork/next-is-plain-object",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A isPlainObject implement.",
   "homepage": "https://github.com/afeiship/next-is-plain-object",
   "author": {
