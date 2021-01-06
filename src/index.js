@@ -1,5 +1,5 @@
 (function () {
-  var global = global || this || window || Function('return this')();
+  var global = global || window || Function('return this')();
   var nx = global.nx || require('@jswork/next');
   // https://github.com/reduxjs/react-redux/blob/master/src/utils/isPlainObject.js
   // https://github.com/jonschlinkert/is-plain-object
