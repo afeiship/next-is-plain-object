@@ -2,8 +2,8 @@
  * name: @jswork/next-is-plain-object
  * description: A isPlainObject implement.
  * homepage: https://github.com/afeiship/next-is-plain-object
- * version: 1.0.1
- * date: 2021-01-06 22:15:18
+ * version: 1.0.2
+ * date: 2021-01-09 16:31:29
  * license: MIT
  */
 
