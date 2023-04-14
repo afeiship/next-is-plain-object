@@ -1,6 +1,6 @@
 {
   "name": "@jswork/next-is-plain-object",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A isPlainObject implement.",
   "homepage": "https://js.work",
   "author": {
@@ -44,5 +44,13 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
-  }
+  },
+  "keywords": [
+    "next",
+    "is-plain-object",
+    "plain",
+    "object",
+    "is-object",
+    "is"
+  ]
 }
