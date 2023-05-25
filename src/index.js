@@ -29,7 +29,7 @@ nx.isPlainObject = function (inTarget) {
   return true;
 };
 
-if (typeof module !== 'undefined' && module.exports) {
+if (typeof module !== 'undefined' && module.exports && typeof wx === 'undefined') {
   module.exports = nx.isPlainObject;
 }
 
