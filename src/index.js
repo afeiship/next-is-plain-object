@@ -29,8 +29,8 @@ nx.isPlainObject = function (inTarget) {
   return true;
 };
 
-if (typeof module !== 'undefined' && module.exports && typeof wx === 'undefined') {
-  module.exports = nx.isPlainObject;
-}
+// if (typeof module !== 'undefined' && module.exports && typeof wx === 'undefined') {
+//   module.exports = nx.isPlainObject;
+// }
 
 export default nx.isPlainObject;
